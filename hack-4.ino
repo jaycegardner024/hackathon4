@@ -127,7 +127,8 @@ void setup(void)
     // Otherwise, it is invalid, so set our address AND ROLE to 'invalid'
     else
     {
-      node_address = 0;
+      node_address = 80
+      ;
       role = role_invalid;
     }
   }
